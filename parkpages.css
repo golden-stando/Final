@@ -1,0 +1,29 @@
+body{
+    background-color: rgb(56, 125, 122);
+    color: rgb(38, 38, 38);
+
+}
+header{
+    font-size: 75px;
+    display: flex;
+    flex-grow: 2;
+    justify-content: center;
+}
+table{
+    border-style: solid;
+justify-self: center;
+
+}
+tr{
+margin-top: 10px;
+border-radius: 5px;
+}
+td{
+font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+section{
+background-color: rgba(46, 139, 86, 0.549);
+width: 300px;
+height: 300px;
+margin: 30px;
+}
