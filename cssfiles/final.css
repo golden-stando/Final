@@ -17,7 +17,9 @@ form {
     flex-grow: 2;
     text-align: center;
     border-color: rgb(43, 192, 22);
-    height:300px;
+    height:400px;
+    width:500px;
+    line-height: 35px;
     
 }
 
@@ -26,6 +28,7 @@ body.survey {
     display: flex;
     flex-direction: column;
     color: rgb(38, 38, 38);
+    align-items: center;
 }
 
 div.container {
@@ -49,10 +52,12 @@ div.contributors {
 }
 
 article {
-    width: 300px;
+    width: 400px;
     background-color: rgb(205, 230, 245);
     margin: 50px;
     font-size: 30px;
+    text-align: start;
+    align-items: center;
 }
 
 header {
