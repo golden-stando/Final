@@ -1,28 +1,61 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../cssfiles/final.css">
 </head>
+
 <body class="survey">
-    
+
     <header>
         <h1>Customer Experience Survey</h1>
     </header>
     <article>
-        We want to hear what you thought of our website, so please feel free to fill out this small survey to give us some feedback.
+        We want to hear what you thought of our website, so please feel free to fill out this small survey to give us
+        some feedback.
     </article>
     <div class="survey">
-    <form>
-        <div class="form">
-            <label for="Fulfilled purpose">Did you find this site informative / helpful?</label>
-            <input type="radio" id="Fulfilled purpose" value="yes">
-        </div>
-        <input type="submit" id="submit feedback" name="submission" value="Submit Feedback">
-    </form>
+        <form>
+            <div class="form">
+                <label for="Fulfilled purpose">Did you find this site informative / helpful?</label>
+                <input type="radio" id="Fulfilled purpose" value="yes">
+                <br>
+                <label for="">Do you have any parks to reccomend?</label>
+                <input type="text" id="ParkRec" value="">
+                <br>
+                <label for="">Rate your enjoyment of this website</label>
+                <input type="" id="radio" value="">
+                <br>
+                <label>What Features did you most enjoy from this website?</label>
+                <br>
+                <input type="checkbox" id="ImgMap">
+                <label>Interactive Map</label>
+                <br>
+                <input type="checkbox" id="altLinks">
+                <label>Alternative Links to Pages</label>
+                <br>
+                <input type="checkbox" id="ParkVideo">
+                <label>Videos of the Parks</label>
+                <br>
+                <input type="checkbox" id="AnimalplantTable">
+                <label>List of Threatened Animal and Plantlife</label>
+                <br>
+                <label for="">Which park page stood out the most to you?</label>
+                <select id="Park" name="favPark" size="1">
+                    <option value="Magnuson_Park"> Magnuson Park</option>
+                    <option value="Juanita_Bay_Park">Juanita Bay Park</option>
+                    <option value="Seward_Park">Seward Park</option>
+                </select>
+            </div>
+            <input type="submit" id="submit feedback" name="submission" value="Submit Feedback">
+            <br>
+            <input type="reset" id="Reset survey" name="resetButton" value="Reset survey">
+        </form>
     </div>
     <footer><a href="../Index.html">Return to homepage</a></footer>
 </body>
+
 </html>
