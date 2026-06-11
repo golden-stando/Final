@@ -1,29 +1,94 @@
-body{
+body {
     background-color: rgb(56, 125, 122);
     color: rgb(38, 38, 38);
 
 }
-header{
+
+header {
     font-size: 75px;
     display: flex;
     flex-grow: 2;
     justify-content: center;
-}
-table{
+    margin: 50px;
+    background-color: rgb(197, 255, 253);
     border-style: solid;
-justify-self: center;
+}
 
+table {
+    margin-top: 50px;
 }
-tr{
-margin-top: 10px;
-border-radius: 5px;
+
+table,
+tr,
+th,
+td {
+    border-style: solid;
+    justify-self: center;
+    border-collapse: collapse;
+    min-width: min-content;
+    width: 800px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(197, 255, 253);
+    background-color: rgb(58, 12, 163);
 }
-td{
-font-family: Verdana, Geneva, Tahoma, sans-serif;
+a{
+    text-decoration: none;
+    color:rgb(197, 255, 253);
 }
-section{
-background-color: rgba(46, 139, 86, 0.549);
-width: 300px;
-height: 300px;
-margin: 30px;
+
+
+section {
+    display: inline-block;
+    background-color: rgba(46, 139, 86, 0.549);
+    width: 300px;
+    height: 700px;
+    margin: 10px;
+}
+
+div.container {
+    justify-content: center;
+    flex-direction: row;
+    text-align: center;
+}
+
+footer {
+    width: 200px;
+    height: 25px;
+    font-size: 20px;
+    margin: auto;
+    background-color: rgb(197, 255, 253);
+    border-color: rgb(197, 255, 253);
+    border-radius: 10px;
+    margin-top: 50px;
+}
+
+img {
+    max-width: 1000px;
+    max-height: 1000px;
+}
+
+iframe.responsive {
+    aspect-ratio: 16/9;
+    position: absolute;
+    top: 0;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 100%;
+}
+
+div.video {
+    background-color: rgb(197, 255, 253);
+    border-color: rgb(43, 192, 22);
+    border-style: groove;
+    border-width: 5px;
+    border-radius: 10px;
+}
+
+div.Container {
+    position: relative;
+    width: 100%;
+    overflow: hidden;
+    padding-top: 56.25%;
 }
