@@ -8,6 +8,8 @@ body {
 div.survey {
     background-color: rgb(43, 192, 22);
     border-style: solid;
+    min-height: fit-content;
+    height:300px;
 }
 
 form {
@@ -15,6 +17,8 @@ form {
     flex-grow: 2;
     text-align: center;
     border-color: rgb(43, 192, 22);
+    height:300px;
+    
 }
 
 body.survey {
